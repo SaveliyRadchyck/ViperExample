@@ -1,0 +1,12 @@
+//
+//  PMainConfigurator.swift
+//  ViperExample
+//
+//  Created by Saveliy Radchyck on 27.12.2022.
+//
+
+import Foundation
+
+protocol PMainConfigurator: AnyObject {
+    func config(with vc: PMainVC)
+}
